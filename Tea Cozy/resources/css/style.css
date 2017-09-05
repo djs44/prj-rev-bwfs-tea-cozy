@@ -1,0 +1,149 @@
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/* Header styles */
+
+header {
+
+  height: 69px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
+
+}
+
+#logo {
+  margin-left: 10px;
+}
+
+
+nav li {
+  display: inline;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+/* Main styles */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+
+}
+
+#mission {
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  z-index: inherit;
+  }
+
+#mission-statement {
+  background-color: black;
+  width: 100%;
+}
+
+p {
+  color: seashell;
+}
+
+h2, h4 {
+  text-align: center;
+  color: seashell;
+}
+
+#tea-of-month {
+  width: 1000px;
+}
+
+#tea-month-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tea-image-squares img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-image-squares h4 {
+  margin-top: 10px;
+  }
+
+.tea-image-squares {
+  height: 250px;
+}
+
+#myrtle  {
+  margin-left: 175px;
+  margin-top: 15px;
+}
+
+#bedford {
+  margin-right: 175px;
+  margin-top: 15px;
+}
+
+#locations {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  width: 1200px;
+  margin-top: 100px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location-addresses {
+  opacity: 1;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+/* Footer styles */
+
+footer {
+  text-align: left;
+  width: 100%;
+}
+
+#contact-info {
+  height: 200px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#copyright {
+  font-size: 16px;
+  margin-left: 20px;
+}
